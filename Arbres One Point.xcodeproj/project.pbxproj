@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		150C95D9278E23FA000CF7C3 /* Arbres_One_PointApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150C95D8278E23FA000CF7C3 /* Arbres_One_PointApp.swift */; };
+		150C95DB278E23FA000CF7C3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150C95DA278E23FA000CF7C3 /* ContentView.swift */; };
+		150C95DD278E23FB000CF7C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 150C95DC278E23FB000CF7C3 /* Assets.xcassets */; };
+		150C95E0278E23FB000CF7C3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 150C95DF278E23FB000CF7C3 /* Preview Assets.xcassets */; };
+		150C95EA278E23FB000CF7C3 /* Arbres_One_PointTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150C95E9278E23FB000CF7C3 /* Arbres_One_PointTests.swift */; };
+		150C95F4278E23FB000CF7C3 /* Arbres_One_PointUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150C95F3278E23FB000CF7C3 /* Arbres_One_PointUITests.swift */; };
+		150C95F6278E23FB000CF7C3 /* Arbres_One_PointUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150C95F5278E23FB000CF7C3 /* Arbres_One_PointUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		150C95E6278E23FB000CF7C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 150C95CD278E23F9000CF7C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 150C95D4278E23FA000CF7C3;
+			remoteInfo = "Arbres One Point";
+		};
+		150C95F0278E23FB000CF7C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 150C95CD278E23F9000CF7C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 150C95D4278E23FA000CF7C3;
+			remoteInfo = "Arbres One Point";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		150C95D5278E23FA000CF7C3 /* Arbres One Point.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Arbres One Point.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		150C95D8278E23FA000CF7C3 /* Arbres_One_PointApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arbres_One_PointApp.swift; sourceTree = "<group>"; };
+		150C95DA278E23FA000CF7C3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		150C95DC278E23FB000CF7C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		150C95DF278E23FB000CF7C3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		150C95E5278E23FB000CF7C3 /* Arbres One PointTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Arbres One PointTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		150C95E9278E23FB000CF7C3 /* Arbres_One_PointTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arbres_One_PointTests.swift; sourceTree = "<group>"; };
+		150C95EF278E23FB000CF7C3 /* Arbres One PointUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Arbres One PointUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		150C95F3278E23FB000CF7C3 /* Arbres_One_PointUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arbres_One_PointUITests.swift; sourceTree = "<group>"; };
+		150C95F5278E23FB000CF7C3 /* Arbres_One_PointUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arbres_One_PointUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		150C95D2278E23FA000CF7C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		150C95E2278E23FB000CF7C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		150C95EC278E23FB000CF7C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		150C95CC278E23F9000CF7C3 = {
+			isa = PBXGroup;
+			children = (
+				150C95D7278E23FA000CF7C3 /* Arbres One Point */,
+				150C95E8278E23FB000CF7C3 /* Arbres One PointTests */,
+				150C95F2278E23FB000CF7C3 /* Arbres One PointUITests */,
+				150C95D6278E23FA000CF7C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		150C95D6278E23FA000CF7C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				150C95D5278E23FA000CF7C3 /* Arbres One Point.app */,
+				150C95E5278E23FB000CF7C3 /* Arbres One PointTests.xctest */,
+				150C95EF278E23FB000CF7C3 /* Arbres One PointUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		150C95D7278E23FA000CF7C3 /* Arbres One Point */ = {
+			isa = PBXGroup;
+			children = (
+				150C95D8278E23FA000CF7C3 /* Arbres_One_PointApp.swift */,
+				150C95DA278E23FA000CF7C3 /* ContentView.swift */,
+				150C95DC278E23FB000CF7C3 /* Assets.xcassets */,
+				150C95DE278E23FB000CF7C3 /* Preview Content */,
+			);
+			path = "Arbres One Point";
+			sourceTree = "<group>";
+		};
+		150C95DE278E23FB000CF7C3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				150C95DF278E23FB000CF7C3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		150C95E8278E23FB000CF7C3 /* Arbres One PointTests */ = {
+			isa = PBXGroup;
+			children = (
+				150C95E9278E23FB000CF7C3 /* Arbres_One_PointTests.swift */,
+			);
+			path = "Arbres One PointTests";
+			sourceTree = "<group>";
+		};
+		150C95F2278E23FB000CF7C3 /* Arbres One PointUITests */ = {
+			isa = PBXGroup;
+			children = (
+				150C95F3278E23FB000CF7C3 /* Arbres_One_PointUITests.swift */,
+				150C95F5278E23FB000CF7C3 /* Arbres_One_PointUITestsLaunchTests.swift */,
+			);
+			path = "Arbres One PointUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		150C95D4278E23FA000CF7C3 /* Arbres One Point */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 150C95F9278E23FB000CF7C3 /* Build configuration list for PBXNativeTarget "Arbres One Point" */;
+			buildPhases = (
+				150C95D1278E23FA000CF7C3 /* Sources */,
+				150C95D2278E23FA000CF7C3 /* Frameworks */,
+				150C95D3278E23FA000CF7C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Arbres One Point";
+			productName = "Arbres One Point";
+			productReference = 150C95D5278E23FA000CF7C3 /* Arbres One Point.app */;
+			productType = "com.apple.product-type.application";
+		};
+		150C95E4278E23FB000CF7C3 /* Arbres One PointTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 150C95FC278E23FB000CF7C3 /* Build configuration list for PBXNativeTarget "Arbres One PointTests" */;
+			buildPhases = (
+				150C95E1278E23FB000CF7C3 /* Sources */,
+				150C95E2278E23FB000CF7C3 /* Frameworks */,
+				150C95E3278E23FB000CF7C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				150C95E7278E23FB000CF7C3 /* PBXTargetDependency */,
+			);
+			name = "Arbres One PointTests";
+			productName = "Arbres One PointTests";
+			productReference = 150C95E5278E23FB000CF7C3 /* Arbres One PointTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		150C95EE278E23FB000CF7C3 /* Arbres One PointUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 150C95FF278E23FB000CF7C3 /* Build configuration list for PBXNativeTarget "Arbres One PointUITests" */;
+			buildPhases = (
+				150C95EB278E23FB000CF7C3 /* Sources */,
+				150C95EC278E23FB000CF7C3 /* Frameworks */,
+				150C95ED278E23FB000CF7C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				150C95F1278E23FB000CF7C3 /* PBXTargetDependency */,
+			);
+			name = "Arbres One PointUITests";
+			productName = "Arbres One PointUITests";
+			productReference = 150C95EF278E23FB000CF7C3 /* Arbres One PointUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		150C95CD278E23F9000CF7C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					150C95D4278E23FA000CF7C3 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					150C95E4278E23FB000CF7C3 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 150C95D4278E23FA000CF7C3;
+					};
+					150C95EE278E23FB000CF7C3 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 150C95D4278E23FA000CF7C3;
+					};
+				};
+			};
+			buildConfigurationList = 150C95D0278E23F9000CF7C3 /* Build configuration list for PBXProject "Arbres One Point" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 150C95CC278E23F9000CF7C3;
+			productRefGroup = 150C95D6278E23FA000CF7C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				150C95D4278E23FA000CF7C3 /* Arbres One Point */,
+				150C95E4278E23FB000CF7C3 /* Arbres One PointTests */,
+				150C95EE278E23FB000CF7C3 /* Arbres One PointUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		150C95D3278E23FA000CF7C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				150C95E0278E23FB000CF7C3 /* Preview Assets.xcassets in Resources */,
+				150C95DD278E23FB000CF7C3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		150C95E3278E23FB000CF7C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		150C95ED278E23FB000CF7C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		150C95D1278E23FA000CF7C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				150C95DB278E23FA000CF7C3 /* ContentView.swift in Sources */,
+				150C95D9278E23FA000CF7C3 /* Arbres_One_PointApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		150C95E1278E23FB000CF7C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				150C95EA278E23FB000CF7C3 /* Arbres_One_PointTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		150C95EB278E23FB000CF7C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				150C95F4278E23FB000CF7C3 /* Arbres_One_PointUITests.swift in Sources */,
+				150C95F6278E23FB000CF7C3 /* Arbres_One_PointUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		150C95E7278E23FB000CF7C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 150C95D4278E23FA000CF7C3 /* Arbres One Point */;
+			targetProxy = 150C95E6278E23FB000CF7C3 /* PBXContainerItemProxy */;
+		};
+		150C95F1278E23FB000CF7C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 150C95D4278E23FA000CF7C3 /* Arbres One Point */;
+			targetProxy = 150C95F0278E23FB000CF7C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		150C95F7278E23FB000CF7C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		150C95F8278E23FB000CF7C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		150C95FA278E23FB000CF7C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Arbres One Point/Preview Content\"";
+				DEVELOPMENT_TEAM = 6NTQ2Y43QX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tooflexdev.Arbres-One-Point";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		150C95FB278E23FB000CF7C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Arbres One Point/Preview Content\"";
+				DEVELOPMENT_TEAM = 6NTQ2Y43QX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tooflexdev.Arbres-One-Point";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		150C95FD278E23FB000CF7C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6NTQ2Y43QX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tooflexdev.Arbres-One-PointTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Arbres One Point.app/Arbres One Point";
+			};
+			name = Debug;
+		};
+		150C95FE278E23FB000CF7C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6NTQ2Y43QX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tooflexdev.Arbres-One-PointTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Arbres One Point.app/Arbres One Point";
+			};
+			name = Release;
+		};
+		150C9600278E23FB000CF7C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6NTQ2Y43QX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tooflexdev.Arbres-One-PointUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Arbres One Point";
+			};
+			name = Debug;
+		};
+		150C9601278E23FB000CF7C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6NTQ2Y43QX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tooflexdev.Arbres-One-PointUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Arbres One Point";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		150C95D0278E23F9000CF7C3 /* Build configuration list for PBXProject "Arbres One Point" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				150C95F7278E23FB000CF7C3 /* Debug */,
+				150C95F8278E23FB000CF7C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		150C95F9278E23FB000CF7C3 /* Build configuration list for PBXNativeTarget "Arbres One Point" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				150C95FA278E23FB000CF7C3 /* Debug */,
+				150C95FB278E23FB000CF7C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		150C95FC278E23FB000CF7C3 /* Build configuration list for PBXNativeTarget "Arbres One PointTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				150C95FD278E23FB000CF7C3 /* Debug */,
+				150C95FE278E23FB000CF7C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		150C95FF278E23FB000CF7C3 /* Build configuration list for PBXNativeTarget "Arbres One PointUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				150C9600278E23FB000CF7C3 /* Debug */,
+				150C9601278E23FB000CF7C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 150C95CD278E23F9000CF7C3 /* Project object */;
+}
