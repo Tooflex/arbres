@@ -7,13 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		150C95D9278E23FA000CF7C3 /* Arbres_One_PointApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150C95D8278E23FA000CF7C3 /* Arbres_One_PointApp.swift */; };
+		150C95D9278E23FA000CF7C3 /* ArbresOnePointApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150C95D8278E23FA000CF7C3 /* ArbresOnePointApp.swift */; };
 		150C95DB278E23FA000CF7C3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150C95DA278E23FA000CF7C3 /* ContentView.swift */; };
 		150C95DD278E23FB000CF7C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 150C95DC278E23FB000CF7C3 /* Assets.xcassets */; };
 		150C95E0278E23FB000CF7C3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 150C95DF278E23FB000CF7C3 /* Preview Assets.xcassets */; };
-		150C95F4278E23FB000CF7C3 /* Arbres_One_PointUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150C95F3278E23FB000CF7C3 /* Arbres_One_PointUITests.swift */; };
-		150C95F6278E23FB000CF7C3 /* Arbres_One_PointUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150C95F5278E23FB000CF7C3 /* Arbres_One_PointUITestsLaunchTests.swift */; };
 		150C9608278E278D000CF7C3 /* ArbreTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150C9607278E278D000CF7C3 /* ArbreTest.swift */; };
+		15892448279270D4000E4703 /* Facet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15892447279270D4000E4703 /* Facet.swift */; };
+		1589244A2792711F000E4703 /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 158924492792711F000E4703 /* State.swift */; };
+		1589244C279271C7000E4703 /* ArbreResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1589244B279271C7000E4703 /* ArbreResponse.swift */; };
+		1589244E279271EA000E4703 /* FacetGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1589244D279271EA000E4703 /* FacetGroup.swift */; };
+		1589245027927223000E4703 /* Parameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1589244F27927223000E4703 /* Parameters.swift */; };
+		158924532792724D000E4703 /* Record.swift in Sources */ = {isa = PBXBuildFile; fileRef = 158924522792724D000E4703 /* Record.swift */; };
+		1589245527927270000E4703 /* Fields.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1589245427927270000E4703 /* Fields.swift */; };
+		15892457279272D2000E4703 /* Geometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15892456279272D2000E4703 /* Geometry.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,15 +41,21 @@
 
 /* Begin PBXFileReference section */
 		150C95D5278E23FA000CF7C3 /* Arbres One Point.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Arbres One Point.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		150C95D8278E23FA000CF7C3 /* Arbres_One_PointApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arbres_One_PointApp.swift; sourceTree = "<group>"; };
+		150C95D8278E23FA000CF7C3 /* ArbresOnePointApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArbresOnePointApp.swift; sourceTree = "<group>"; };
 		150C95DA278E23FA000CF7C3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		150C95DC278E23FB000CF7C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		150C95DF278E23FB000CF7C3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		150C95E5278E23FB000CF7C3 /* Arbres One PointTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Arbres One PointTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		150C95EF278E23FB000CF7C3 /* Arbres One PointUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Arbres One PointUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		150C95F3278E23FB000CF7C3 /* Arbres_One_PointUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arbres_One_PointUITests.swift; sourceTree = "<group>"; };
-		150C95F5278E23FB000CF7C3 /* Arbres_One_PointUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arbres_One_PointUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		150C9607278E278D000CF7C3 /* ArbreTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArbreTest.swift; sourceTree = "<group>"; };
+		15892447279270D4000E4703 /* Facet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Facet.swift; sourceTree = "<group>"; };
+		158924492792711F000E4703 /* State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
+		1589244B279271C7000E4703 /* ArbreResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArbreResponse.swift; sourceTree = "<group>"; };
+		1589244D279271EA000E4703 /* FacetGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacetGroup.swift; sourceTree = "<group>"; };
+		1589244F27927223000E4703 /* Parameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parameters.swift; sourceTree = "<group>"; };
+		158924522792724D000E4703 /* Record.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Record.swift; sourceTree = "<group>"; };
+		1589245427927270000E4703 /* Fields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fields.swift; sourceTree = "<group>"; };
+		15892456279272D2000E4703 /* Geometry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Geometry.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +111,7 @@
 				150C9604278E25CF000CF7C3 /* Model */,
 				150C9603278E25C1000CF7C3 /* Service */,
 				150C9602278E25B4000CF7C3 /* Repository */,
-				150C95D8278E23FA000CF7C3 /* Arbres_One_PointApp.swift */,
+				150C95D8278E23FA000CF7C3 /* ArbresOnePointApp.swift */,
 				150C95DA278E23FA000CF7C3 /* ContentView.swift */,
 				150C95DC278E23FB000CF7C3 /* Assets.xcassets */,
 				150C95DE278E23FB000CF7C3 /* Preview Content */,
@@ -126,8 +138,6 @@
 		150C95F2278E23FB000CF7C3 /* Arbres One PointUITests */ = {
 			isa = PBXGroup;
 			children = (
-				150C95F3278E23FB000CF7C3 /* Arbres_One_PointUITests.swift */,
-				150C95F5278E23FB000CF7C3 /* Arbres_One_PointUITestsLaunchTests.swift */,
 			);
 			path = "Arbres One PointUITests";
 			sourceTree = "<group>";
@@ -149,6 +159,14 @@
 		150C9604278E25CF000CF7C3 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				15892447279270D4000E4703 /* Facet.swift */,
+				158924492792711F000E4703 /* State.swift */,
+				1589244B279271C7000E4703 /* ArbreResponse.swift */,
+				1589244D279271EA000E4703 /* FacetGroup.swift */,
+				1589244F27927223000E4703 /* Parameters.swift */,
+				158924522792724D000E4703 /* Record.swift */,
+				1589245427927270000E4703 /* Fields.swift */,
+				15892456279272D2000E4703 /* Geometry.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -310,7 +328,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfiType a script or drag a script file from your workspace to insert its path.\n";
+			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -320,7 +338,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				150C95DB278E23FA000CF7C3 /* ContentView.swift in Sources */,
-				150C95D9278E23FA000CF7C3 /* Arbres_One_PointApp.swift in Sources */,
+				1589245027927223000E4703 /* Parameters.swift in Sources */,
+				1589244C279271C7000E4703 /* ArbreResponse.swift in Sources */,
+				150C95D9278E23FA000CF7C3 /* ArbresOnePointApp.swift in Sources */,
+				15892448279270D4000E4703 /* Facet.swift in Sources */,
+				1589245527927270000E4703 /* Fields.swift in Sources */,
+				1589244A2792711F000E4703 /* State.swift in Sources */,
+				158924532792724D000E4703 /* Record.swift in Sources */,
+				1589244E279271EA000E4703 /* FacetGroup.swift in Sources */,
+				15892457279272D2000E4703 /* Geometry.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,8 +362,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				150C95F4278E23FB000CF7C3 /* Arbres_One_PointUITests.swift in Sources */,
-				150C95F6278E23FB000CF7C3 /* Arbres_One_PointUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct Arbres_One_PointApp: App {
+struct ArbresOnePointApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

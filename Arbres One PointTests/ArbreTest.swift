@@ -1,14 +1,13 @@
 //
-//  Arbres_One_PointTests.swift
+//  ArbreTest.swift
 //  Arbres One PointTests
 //
 //  Created by Otourou Da Costa on 11/01/2022.
 //
 
 import XCTest
-@testable import Arbres_One_Point
 
-class Arbres_One_PointTests: XCTestCase {
+class ArbreTest: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
