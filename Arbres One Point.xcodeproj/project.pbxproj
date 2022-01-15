@@ -11,9 +11,9 @@
 		150C95DB278E23FA000CF7C3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150C95DA278E23FA000CF7C3 /* ContentView.swift */; };
 		150C95DD278E23FB000CF7C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 150C95DC278E23FB000CF7C3 /* Assets.xcassets */; };
 		150C95E0278E23FB000CF7C3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 150C95DF278E23FB000CF7C3 /* Preview Assets.xcassets */; };
-		150C95EA278E23FB000CF7C3 /* Arbres_One_PointTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150C95E9278E23FB000CF7C3 /* Arbres_One_PointTests.swift */; };
 		150C95F4278E23FB000CF7C3 /* Arbres_One_PointUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150C95F3278E23FB000CF7C3 /* Arbres_One_PointUITests.swift */; };
 		150C95F6278E23FB000CF7C3 /* Arbres_One_PointUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150C95F5278E23FB000CF7C3 /* Arbres_One_PointUITestsLaunchTests.swift */; };
+		150C9608278E278D000CF7C3 /* ArbreTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150C9607278E278D000CF7C3 /* ArbreTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,10 +40,10 @@
 		150C95DC278E23FB000CF7C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		150C95DF278E23FB000CF7C3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		150C95E5278E23FB000CF7C3 /* Arbres One PointTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Arbres One PointTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		150C95E9278E23FB000CF7C3 /* Arbres_One_PointTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arbres_One_PointTests.swift; sourceTree = "<group>"; };
 		150C95EF278E23FB000CF7C3 /* Arbres One PointUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Arbres One PointUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		150C95F3278E23FB000CF7C3 /* Arbres_One_PointUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arbres_One_PointUITests.swift; sourceTree = "<group>"; };
 		150C95F5278E23FB000CF7C3 /* Arbres_One_PointUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arbres_One_PointUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		150C9607278E278D000CF7C3 /* ArbreTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArbreTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +94,11 @@
 		150C95D7278E23FA000CF7C3 /* Arbres One Point */ = {
 			isa = PBXGroup;
 			children = (
+				150C9606278E25E9000CF7C3 /* ViewModel */,
+				150C9605278E25E1000CF7C3 /* View */,
+				150C9604278E25CF000CF7C3 /* Model */,
+				150C9603278E25C1000CF7C3 /* Service */,
+				150C9602278E25B4000CF7C3 /* Repository */,
 				150C95D8278E23FA000CF7C3 /* Arbres_One_PointApp.swift */,
 				150C95DA278E23FA000CF7C3 /* ContentView.swift */,
 				150C95DC278E23FB000CF7C3 /* Assets.xcassets */,
@@ -113,7 +118,7 @@
 		150C95E8278E23FB000CF7C3 /* Arbres One PointTests */ = {
 			isa = PBXGroup;
 			children = (
-				150C95E9278E23FB000CF7C3 /* Arbres_One_PointTests.swift */,
+				150C9607278E278D000CF7C3 /* ArbreTest.swift */,
 			);
 			path = "Arbres One PointTests";
 			sourceTree = "<group>";
@@ -127,6 +132,41 @@
 			path = "Arbres One PointUITests";
 			sourceTree = "<group>";
 		};
+		150C9602278E25B4000CF7C3 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		150C9603278E25C1000CF7C3 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		150C9604278E25CF000CF7C3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		150C9605278E25E1000CF7C3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		150C9606278E25E9000CF7C3 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,6 +174,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 150C95F9278E23FB000CF7C3 /* Build configuration list for PBXNativeTarget "Arbres One Point" */;
 			buildPhases = (
+				1589244627926BF5000E4703 /* ShellScript */,
 				150C95D1278E23FA000CF7C3 /* Sources */,
 				150C95D2278E23FA000CF7C3 /* Frameworks */,
 				150C95D3278E23FA000CF7C3 /* Resources */,
@@ -198,6 +239,7 @@
 					};
 					150C95E4278E23FB000CF7C3 = {
 						CreatedOnToolsVersion = 13.2.1;
+						LastSwiftMigration = 1320;
 						TestTargetID = 150C95D4278E23FA000CF7C3;
 					};
 					150C95EE278E23FB000CF7C3 = {
@@ -252,6 +294,26 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1589244627926BF5000E4703 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfiType a script or drag a script file from your workspace to insert its path.\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		150C95D1278E23FA000CF7C3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -266,7 +328,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				150C95EA278E23FB000CF7C3 /* Arbres_One_PointTests.swift in Sources */,
+				150C9608278E278D000CF7C3 /* ArbreTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,15 +536,22 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6NTQ2Y43QX;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tooflexdev.Arbres-One-PointTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Arbres One Point.app/Arbres One Point";
@@ -494,11 +563,17 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6NTQ2Y43QX;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tooflexdev.Arbres-One-PointTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
