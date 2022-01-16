@@ -12,14 +12,26 @@
 		150C95DD278E23FB000CF7C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 150C95DC278E23FB000CF7C3 /* Assets.xcassets */; };
 		150C95E0278E23FB000CF7C3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 150C95DF278E23FB000CF7C3 /* Preview Assets.xcassets */; };
 		150C9608278E278D000CF7C3 /* ArbreTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150C9607278E278D000CF7C3 /* ArbreTest.swift */; };
-		15892448279270D4000E4703 /* Facet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15892447279270D4000E4703 /* Facet.swift */; };
-		1589244A2792711F000E4703 /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 158924492792711F000E4703 /* State.swift */; };
-		1589244C279271C7000E4703 /* ArbreResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1589244B279271C7000E4703 /* ArbreResponse.swift */; };
-		1589244E279271EA000E4703 /* FacetGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1589244D279271EA000E4703 /* FacetGroup.swift */; };
-		1589245027927223000E4703 /* Parameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1589244F27927223000E4703 /* Parameters.swift */; };
-		158924532792724D000E4703 /* Record.swift in Sources */ = {isa = PBXBuildFile; fileRef = 158924522792724D000E4703 /* Record.swift */; };
-		1589245527927270000E4703 /* Fields.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1589245427927270000E4703 /* Fields.swift */; };
-		15892457279272D2000E4703 /* Geometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15892456279272D2000E4703 /* Geometry.swift */; };
+		1588A0CD27943CED00F2B0D2 /* Fields.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1588A0C527943CEC00F2B0D2 /* Fields.swift */; };
+		1588A0CE27943CED00F2B0D2 /* Facet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1588A0C627943CED00F2B0D2 /* Facet.swift */; };
+		1588A0CF27943CED00F2B0D2 /* FacetGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1588A0C727943CED00F2B0D2 /* FacetGroup.swift */; };
+		1588A0D027943CED00F2B0D2 /* JSONSchemaSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1588A0C827943CED00F2B0D2 /* JSONSchemaSupport.swift */; };
+		1588A0D127943CED00F2B0D2 /* Geometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1588A0C927943CED00F2B0D2 /* Geometry.swift */; };
+		1588A0D227943CED00F2B0D2 /* ArbresResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1588A0CA27943CED00F2B0D2 /* ArbresResponse.swift */; };
+		1588A0D327943CED00F2B0D2 /* Parameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1588A0CB27943CED00F2B0D2 /* Parameters.swift */; };
+		1588A0D427943CED00F2B0D2 /* Record.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1588A0CC27943CED00F2B0D2 /* Record.swift */; };
+		1588A0D6279453B300F2B0D2 /* ArbreDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1588A0D5279453B300F2B0D2 /* ArbreDB.swift */; };
+		15892459279274AE000E4703 /* ArbreListViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15892458279274AE000E4703 /* ArbreListViewModelTest.swift */; };
+		1589245B279274C6000E4703 /* ArbreDetailsViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1589245A279274C6000E4703 /* ArbreDetailsViewModelTest.swift */; };
+		1589245D27927BDD000E4703 /* DataRepositoryTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1589245C27927BDD000E4703 /* DataRepositoryTest.swift */; };
+		1598FEF7279478C100A83182 /* Persistable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1598FEF6279478C100A83182 /* Persistable.swift */; };
+		15EA8BD92793235000F98DF3 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EA8BD82793235000F98DF3 /* DetailView.swift */; };
+		15EA8BDB27932EEC00F98DF3 /* ArbreApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EA8BDA27932EEC00F98DF3 /* ArbreApiService.swift */; };
+		15EA8BDE2793302D00F98DF3 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 15EA8BDD2793302D00F98DF3 /* Alamofire */; };
+		15EA8BE12793328200F98DF3 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EA8BE02793328200F98DF3 /* Configuration.swift */; };
+		15EA8BE327933D1000F98DF3 /* DataRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EA8BE227933D1000F98DF3 /* DataRepository.swift */; };
+		15EA8BE627933F2700F98DF3 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 15EA8BE527933F2700F98DF3 /* Realm */; };
+		15EA8BE827933F2700F98DF3 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 15EA8BE727933F2700F98DF3 /* RealmSwift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,14 +60,23 @@
 		150C95E5278E23FB000CF7C3 /* Arbres One PointTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Arbres One PointTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		150C95EF278E23FB000CF7C3 /* Arbres One PointUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Arbres One PointUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		150C9607278E278D000CF7C3 /* ArbreTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArbreTest.swift; sourceTree = "<group>"; };
-		15892447279270D4000E4703 /* Facet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Facet.swift; sourceTree = "<group>"; };
-		158924492792711F000E4703 /* State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
-		1589244B279271C7000E4703 /* ArbreResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArbreResponse.swift; sourceTree = "<group>"; };
-		1589244D279271EA000E4703 /* FacetGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacetGroup.swift; sourceTree = "<group>"; };
-		1589244F27927223000E4703 /* Parameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parameters.swift; sourceTree = "<group>"; };
-		158924522792724D000E4703 /* Record.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Record.swift; sourceTree = "<group>"; };
-		1589245427927270000E4703 /* Fields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fields.swift; sourceTree = "<group>"; };
-		15892456279272D2000E4703 /* Geometry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Geometry.swift; sourceTree = "<group>"; };
+		1588A0C527943CEC00F2B0D2 /* Fields.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fields.swift; sourceTree = "<group>"; };
+		1588A0C627943CED00F2B0D2 /* Facet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Facet.swift; sourceTree = "<group>"; };
+		1588A0C727943CED00F2B0D2 /* FacetGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacetGroup.swift; sourceTree = "<group>"; };
+		1588A0C827943CED00F2B0D2 /* JSONSchemaSupport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONSchemaSupport.swift; sourceTree = "<group>"; };
+		1588A0C927943CED00F2B0D2 /* Geometry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Geometry.swift; sourceTree = "<group>"; };
+		1588A0CA27943CED00F2B0D2 /* ArbresResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArbresResponse.swift; sourceTree = "<group>"; };
+		1588A0CB27943CED00F2B0D2 /* Parameters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parameters.swift; sourceTree = "<group>"; };
+		1588A0CC27943CED00F2B0D2 /* Record.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Record.swift; sourceTree = "<group>"; };
+		1588A0D5279453B300F2B0D2 /* ArbreDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArbreDB.swift; sourceTree = "<group>"; };
+		15892458279274AE000E4703 /* ArbreListViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArbreListViewModelTest.swift; sourceTree = "<group>"; };
+		1589245A279274C6000E4703 /* ArbreDetailsViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArbreDetailsViewModelTest.swift; sourceTree = "<group>"; };
+		1589245C27927BDD000E4703 /* DataRepositoryTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataRepositoryTest.swift; sourceTree = "<group>"; };
+		1598FEF6279478C100A83182 /* Persistable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistable.swift; sourceTree = "<group>"; };
+		15EA8BD82793235000F98DF3 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		15EA8BDA27932EEC00F98DF3 /* ArbreApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArbreApiService.swift; sourceTree = "<group>"; };
+		15EA8BE02793328200F98DF3 /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		15EA8BE227933D1000F98DF3 /* DataRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataRepository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +84,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15EA8BE827933F2700F98DF3 /* RealmSwift in Frameworks */,
+				15EA8BE627933F2700F98DF3 /* Realm in Frameworks */,
+				15EA8BDE2793302D00F98DF3 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,13 +130,14 @@
 		150C95D7278E23FA000CF7C3 /* Arbres One Point */ = {
 			isa = PBXGroup;
 			children = (
+				1598FEF5279478AD00A83182 /* Protocol */,
+				15EA8BDF2793326E00F98DF3 /* Util */,
 				150C9606278E25E9000CF7C3 /* ViewModel */,
 				150C9605278E25E1000CF7C3 /* View */,
 				150C9604278E25CF000CF7C3 /* Model */,
 				150C9603278E25C1000CF7C3 /* Service */,
 				150C9602278E25B4000CF7C3 /* Repository */,
 				150C95D8278E23FA000CF7C3 /* ArbresOnePointApp.swift */,
-				150C95DA278E23FA000CF7C3 /* ContentView.swift */,
 				150C95DC278E23FB000CF7C3 /* Assets.xcassets */,
 				150C95DE278E23FB000CF7C3 /* Preview Content */,
 			);
@@ -131,6 +156,9 @@
 			isa = PBXGroup;
 			children = (
 				150C9607278E278D000CF7C3 /* ArbreTest.swift */,
+				15892458279274AE000E4703 /* ArbreListViewModelTest.swift */,
+				1589245A279274C6000E4703 /* ArbreDetailsViewModelTest.swift */,
+				1589245C27927BDD000E4703 /* DataRepositoryTest.swift */,
 			);
 			path = "Arbres One PointTests";
 			sourceTree = "<group>";
@@ -145,6 +173,7 @@
 		150C9602278E25B4000CF7C3 /* Repository */ = {
 			isa = PBXGroup;
 			children = (
+				15EA8BE227933D1000F98DF3 /* DataRepository.swift */,
 			);
 			path = Repository;
 			sourceTree = "<group>";
@@ -152,6 +181,7 @@
 		150C9603278E25C1000CF7C3 /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				15EA8BDA27932EEC00F98DF3 /* ArbreApiService.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -159,14 +189,15 @@
 		150C9604278E25CF000CF7C3 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				15892447279270D4000E4703 /* Facet.swift */,
-				158924492792711F000E4703 /* State.swift */,
-				1589244B279271C7000E4703 /* ArbreResponse.swift */,
-				1589244D279271EA000E4703 /* FacetGroup.swift */,
-				1589244F27927223000E4703 /* Parameters.swift */,
-				158924522792724D000E4703 /* Record.swift */,
-				1589245427927270000E4703 /* Fields.swift */,
-				15892456279272D2000E4703 /* Geometry.swift */,
+				1588A0CA27943CED00F2B0D2 /* ArbresResponse.swift */,
+				1588A0C627943CED00F2B0D2 /* Facet.swift */,
+				1588A0C727943CED00F2B0D2 /* FacetGroup.swift */,
+				1588A0C527943CEC00F2B0D2 /* Fields.swift */,
+				1588A0C927943CED00F2B0D2 /* Geometry.swift */,
+				1588A0C827943CED00F2B0D2 /* JSONSchemaSupport.swift */,
+				1588A0CB27943CED00F2B0D2 /* Parameters.swift */,
+				1588A0CC27943CED00F2B0D2 /* Record.swift */,
+				1588A0D5279453B300F2B0D2 /* ArbreDB.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -174,6 +205,8 @@
 		150C9605278E25E1000CF7C3 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				150C95DA278E23FA000CF7C3 /* ContentView.swift */,
+				15EA8BD82793235000F98DF3 /* DetailView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -183,6 +216,22 @@
 			children = (
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1598FEF5279478AD00A83182 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				1598FEF6279478C100A83182 /* Persistable.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		15EA8BDF2793326E00F98DF3 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				15EA8BE02793328200F98DF3 /* Configuration.swift */,
+			);
+			path = Util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,6 +251,11 @@
 			dependencies = (
 			);
 			name = "Arbres One Point";
+			packageProductDependencies = (
+				15EA8BDD2793302D00F98DF3 /* Alamofire */,
+				15EA8BE527933F2700F98DF3 /* Realm */,
+				15EA8BE727933F2700F98DF3 /* RealmSwift */,
+			);
 			productName = "Arbres One Point";
 			productReference = 150C95D5278E23FA000CF7C3 /* Arbres One Point.app */;
 			productType = "com.apple.product-type.application";
@@ -275,6 +329,10 @@
 				Base,
 			);
 			mainGroup = 150C95CC278E23F9000CF7C3;
+			packageReferences = (
+				15EA8BDC2793302D00F98DF3 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				15EA8BE427933F2700F98DF3 /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
 			productRefGroup = 150C95D6278E23FA000CF7C3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -337,16 +395,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1588A0D027943CED00F2B0D2 /* JSONSchemaSupport.swift in Sources */,
+				1588A0D227943CED00F2B0D2 /* ArbresResponse.swift in Sources */,
+				1588A0D327943CED00F2B0D2 /* Parameters.swift in Sources */,
 				150C95DB278E23FA000CF7C3 /* ContentView.swift in Sources */,
-				1589245027927223000E4703 /* Parameters.swift in Sources */,
-				1589244C279271C7000E4703 /* ArbreResponse.swift in Sources */,
+				1588A0D427943CED00F2B0D2 /* Record.swift in Sources */,
+				1588A0CE27943CED00F2B0D2 /* Facet.swift in Sources */,
+				1588A0D127943CED00F2B0D2 /* Geometry.swift in Sources */,
 				150C95D9278E23FA000CF7C3 /* ArbresOnePointApp.swift in Sources */,
-				15892448279270D4000E4703 /* Facet.swift in Sources */,
-				1589245527927270000E4703 /* Fields.swift in Sources */,
-				1589244A2792711F000E4703 /* State.swift in Sources */,
-				158924532792724D000E4703 /* Record.swift in Sources */,
-				1589244E279271EA000E4703 /* FacetGroup.swift in Sources */,
-				15892457279272D2000E4703 /* Geometry.swift in Sources */,
+				15EA8BD92793235000F98DF3 /* DetailView.swift in Sources */,
+				15EA8BE12793328200F98DF3 /* Configuration.swift in Sources */,
+				1598FEF7279478C100A83182 /* Persistable.swift in Sources */,
+				1588A0CF27943CED00F2B0D2 /* FacetGroup.swift in Sources */,
+				1588A0CD27943CED00F2B0D2 /* Fields.swift in Sources */,
+				15EA8BDB27932EEC00F98DF3 /* ArbreApiService.swift in Sources */,
+				15EA8BE327933D1000F98DF3 /* DataRepository.swift in Sources */,
+				1588A0D6279453B300F2B0D2 /* ArbreDB.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,6 +419,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				150C9608278E278D000CF7C3 /* ArbreTest.swift in Sources */,
+				1589245D27927BDD000E4703 /* DataRepositoryTest.swift in Sources */,
+				1589245B279274C6000E4703 /* ArbreDetailsViewModelTest.swift in Sources */,
+				15892459279274AE000E4703 /* ArbreListViewModelTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -684,6 +751,43 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		15EA8BDC2793302D00F98DF3 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		15EA8BE427933F2700F98DF3 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.19.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		15EA8BDD2793302D00F98DF3 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 15EA8BDC2793302D00F98DF3 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		15EA8BE527933F2700F98DF3 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 15EA8BE427933F2700F98DF3 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		15EA8BE727933F2700F98DF3 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 15EA8BE427933F2700F98DF3 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 150C95CD278E23F9000CF7C3 /* Project object */;
 }
