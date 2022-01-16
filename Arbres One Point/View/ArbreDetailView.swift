@@ -14,9 +14,9 @@ struct ArbreDetailView: View {
     var body: some View {
         Text("Nom : \(arbre.name)")
         Text("Espèce : \(arbre.specie)")
-        Text("Hauteur : \(arbre.height)")
-        Text("Circonférence : \(arbre.circumference)")
-        Text("Addresse : \(arbre.address)")
+        Text("Hauteur : \(arbre.height)m")
+        Text("Circonférence : \(arbre.circumference)cm")
+        Text("Adresse : \(arbre.address)")
     }
 }
 
