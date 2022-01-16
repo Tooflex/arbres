@@ -25,7 +25,8 @@
 		1589245B279274C6000E4703 /* ArbreDetailsViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1589245A279274C6000E4703 /* ArbreDetailsViewModelTest.swift */; };
 		1589245D27927BDD000E4703 /* DataRepositoryTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1589245C27927BDD000E4703 /* DataRepositoryTest.swift */; };
 		1598FEF7279478C100A83182 /* Persistable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1598FEF6279478C100A83182 /* Persistable.swift */; };
-		15EA8BD92793235000F98DF3 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EA8BD82793235000F98DF3 /* DetailView.swift */; };
+		1598FEF92794BA7D00A83182 /* ArbreListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1598FEF82794BA7D00A83182 /* ArbreListViewModel.swift */; };
+		1598FEFE2794C92000A83182 /* ArbreDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1598FEFD2794C92000A83182 /* ArbreDetailView.swift */; };
 		15EA8BDB27932EEC00F98DF3 /* ArbreApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EA8BDA27932EEC00F98DF3 /* ArbreApiService.swift */; };
 		15EA8BDE2793302D00F98DF3 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 15EA8BDD2793302D00F98DF3 /* Alamofire */; };
 		15EA8BE12793328200F98DF3 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EA8BE02793328200F98DF3 /* Configuration.swift */; };
@@ -73,7 +74,11 @@
 		1589245A279274C6000E4703 /* ArbreDetailsViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArbreDetailsViewModelTest.swift; sourceTree = "<group>"; };
 		1589245C27927BDD000E4703 /* DataRepositoryTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataRepositoryTest.swift; sourceTree = "<group>"; };
 		1598FEF6279478C100A83182 /* Persistable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistable.swift; sourceTree = "<group>"; };
-		15EA8BD82793235000F98DF3 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		1598FEF82794BA7D00A83182 /* ArbreListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArbreListViewModel.swift; sourceTree = "<group>"; };
+		1598FEFA2794C21E00A83182 /* Dev.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Dev.xcconfig; sourceTree = "<group>"; };
+		1598FEFB2794C22E00A83182 /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
+		1598FEFC2794C3A100A83182 /* Arbres-One-Point-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Arbres-One-Point-Info.plist"; sourceTree = SOURCE_ROOT; };
+		1598FEFD2794C92000A83182 /* ArbreDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArbreDetailView.swift; sourceTree = "<group>"; };
 		15EA8BDA27932EEC00F98DF3 /* ArbreApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArbreApiService.swift; sourceTree = "<group>"; };
 		15EA8BE02793328200F98DF3 /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
 		15EA8BE227933D1000F98DF3 /* DataRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataRepository.swift; sourceTree = "<group>"; };
@@ -110,6 +115,8 @@
 		150C95CC278E23F9000CF7C3 = {
 			isa = PBXGroup;
 			children = (
+				1598FEFB2794C22E00A83182 /* Release.xcconfig */,
+				1598FEFA2794C21E00A83182 /* Dev.xcconfig */,
 				150C95D7278E23FA000CF7C3 /* Arbres One Point */,
 				150C95E8278E23FB000CF7C3 /* Arbres One PointTests */,
 				150C95F2278E23FB000CF7C3 /* Arbres One PointUITests */,
@@ -130,6 +137,7 @@
 		150C95D7278E23FA000CF7C3 /* Arbres One Point */ = {
 			isa = PBXGroup;
 			children = (
+				1598FEFC2794C3A100A83182 /* Arbres-One-Point-Info.plist */,
 				1598FEF5279478AD00A83182 /* Protocol */,
 				15EA8BDF2793326E00F98DF3 /* Util */,
 				150C9606278E25E9000CF7C3 /* ViewModel */,
@@ -206,7 +214,7 @@
 			isa = PBXGroup;
 			children = (
 				150C95DA278E23FA000CF7C3 /* ContentView.swift */,
-				15EA8BD82793235000F98DF3 /* DetailView.swift */,
+				1598FEFD2794C92000A83182 /* ArbreDetailView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -214,6 +222,7 @@
 		150C9606278E25E9000CF7C3 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				1598FEF82794BA7D00A83182 /* ArbreListViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -399,14 +408,15 @@
 				1588A0D227943CED00F2B0D2 /* ArbresResponse.swift in Sources */,
 				1588A0D327943CED00F2B0D2 /* Parameters.swift in Sources */,
 				150C95DB278E23FA000CF7C3 /* ContentView.swift in Sources */,
+				1598FEF92794BA7D00A83182 /* ArbreListViewModel.swift in Sources */,
 				1588A0D427943CED00F2B0D2 /* Record.swift in Sources */,
 				1588A0CE27943CED00F2B0D2 /* Facet.swift in Sources */,
 				1588A0D127943CED00F2B0D2 /* Geometry.swift in Sources */,
 				150C95D9278E23FA000CF7C3 /* ArbresOnePointApp.swift in Sources */,
-				15EA8BD92793235000F98DF3 /* DetailView.swift in Sources */,
 				15EA8BE12793328200F98DF3 /* Configuration.swift in Sources */,
 				1598FEF7279478C100A83182 /* Persistable.swift in Sources */,
 				1588A0CF27943CED00F2B0D2 /* FacetGroup.swift in Sources */,
+				1598FEFE2794C92000A83182 /* ArbreDetailView.swift in Sources */,
 				1588A0CD27943CED00F2B0D2 /* Fields.swift in Sources */,
 				15EA8BDB27932EEC00F98DF3 /* ArbreApiService.swift in Sources */,
 				15EA8BE327933D1000F98DF3 /* DataRepository.swift in Sources */,
@@ -450,6 +460,7 @@
 /* Begin XCBuildConfiguration section */
 		150C95F7278E23FB000CF7C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1598FEFA2794C21E00A83182 /* Dev.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -511,6 +522,7 @@
 		};
 		150C95F8278E23FB000CF7C3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1598FEFB2794C22E00A83182 /* Release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -566,6 +578,7 @@
 		};
 		150C95FA278E23FB000CF7C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1598FEFA2794C21E00A83182 /* Dev.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -575,6 +588,7 @@
 				DEVELOPMENT_TEAM = 6NTQ2Y43QX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Arbres-One-Point-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -595,6 +609,7 @@
 		};
 		150C95FB278E23FB000CF7C3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1598FEFB2794C22E00A83182 /* Release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -604,6 +619,7 @@
 				DEVELOPMENT_TEAM = 6NTQ2Y43QX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Arbres-One-Point-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -624,6 +640,7 @@
 		};
 		150C95FD278E23FB000CF7C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1598FEFA2794C21E00A83182 /* Dev.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -651,6 +668,7 @@
 		};
 		150C95FE278E23FB000CF7C3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1598FEFB2794C22E00A83182 /* Release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -677,6 +695,7 @@
 		};
 		150C9600278E23FB000CF7C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1598FEFA2794C21E00A83182 /* Dev.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -695,6 +714,7 @@
 		};
 		150C9601278E23FB000CF7C3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1598FEFB2794C22E00A83182 /* Release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

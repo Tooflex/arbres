@@ -15,12 +15,15 @@ protocol DataRepositoryProtocol {
 
 final class DataRepository: ObservableObject, DataRepositoryProtocol {
 
+    private let realm: Realm
+
     private let apiService: ArbreApiServiceProtocol
 
     public static let sharedInstance = DataRepository()
 
     init(apiService: ArbreApiServiceProtocol = ArbreApiService()) {
         // swiftlint:disable force_try
+        realm = try! Realm()
         self.apiService = apiService
     }
 
@@ -51,6 +54,20 @@ final class DataRepository: ObservableObject, DataRepositoryProtocol {
         }
     }
 
+    func fetchLocalData<T: Object>(type: T.Type, filter: String? = "") -> Results<T> {
+        let results: Results<T>
+        if let filter = filter {
+            if !filter.isEmpty {
+                results = realm.objects(type).filter(filter)
+            } else {
+                results = realm.objects(type)
+            }
+        } else {
+            results = realm.objects(type)
+        }
+        return results
+    }
+
     public final class WriteTransaction {
         private let realm: Realm
         internal init(realm: Realm) {
@@ -60,6 +77,7 @@ final class DataRepository: ObservableObject, DataRepositoryProtocol {
             realm.add(value.managedObject(), update: update)
         }
     }
+
     // Implement the Container
     public final class Container {
         private let realm: Realm

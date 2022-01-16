@@ -1,0 +1,11 @@
+//
+//  Release.xcconfig
+//  Arbres One Point
+//
+//  Created by Otourou Da Costa on 16/01/2022.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+API_ENDPOINT = opendata.paris.fr
