@@ -54,6 +54,19 @@ final class DataRepository: ObservableObject, DataRepositoryProtocol {
         }
     }
 
+    func deleteAll() {
+
+        do {
+            try realm.write {
+                realm.deleteAll()
+            }
+        } catch {
+            // handle error
+            print(error)
+        }
+
+    }
+
     func fetchLocalData<T: Object>(type: T.Type, filter: String? = "") -> Results<T> {
         let results: Results<T>
         if let filter = filter {

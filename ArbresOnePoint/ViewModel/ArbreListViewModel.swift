@@ -26,7 +26,6 @@ final class ArbreListViewModel: ObservableObject {
 
     func getArbres() {
         self.arbresResults = Array(dataRepository.fetchLocalData(type: ArbreDB.self))
-        print(self.arbresResults)
     }
 
     func fetchArbresOnline() {
@@ -37,11 +36,7 @@ final class ArbreListViewModel: ObservableObject {
 
             switch response.result {
             case .success(_):
-                if self.noResults {
                     self.getArbres()
-                } else {
-                    print("Firstnames updated silently")
-                }
             case .failure(let error):
                 print(error.localizedDescription)
             }

@@ -29,7 +29,11 @@ final class ArbreApiService: ArbreApiServiceProtocol {
 
     func fetchArbres(completion: @escaping (DataResponse<ArbresResponse, AFError>) -> Void) {
 
-        guard let url = URL(string: "api/records/1.0/search/?dataset=les-arbres", relativeTo: API.baseURL) else {
+        guard let url = URL(
+            string: "api/records/1.0/search/?dataset=les-arbres&q=&rows=20",
+            relativeTo: API.baseURL
+        )
+        else {
             print("Error: cannot create URL")
             return
         }

@@ -11,7 +11,9 @@
 		150C95DB278E23FA000CF7C3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150C95DA278E23FA000CF7C3 /* ContentView.swift */; };
 		150C95DD278E23FB000CF7C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 150C95DC278E23FB000CF7C3 /* Assets.xcassets */; };
 		150C95E0278E23FB000CF7C3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 150C95DF278E23FB000CF7C3 /* Preview Assets.xcassets */; };
-		150C9608278E278D000CF7C3 /* ArbreTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150C9607278E278D000CF7C3 /* ArbreTest.swift */; };
+		156E4D462796205E00FDC033 /* ArbreOnPointUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156E4D44279610E500FDC033 /* ArbreOnPointUITests.swift */; };
+		156E4D472796208300FDC033 /* ArbreListViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15892458279274AE000E4703 /* ArbreListViewModelTest.swift */; };
+		156E4D482796208700FDC033 /* DataRepositoryTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1589245C27927BDD000E4703 /* DataRepositoryTest.swift */; };
 		1588A0CD27943CED00F2B0D2 /* Fields.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1588A0C527943CEC00F2B0D2 /* Fields.swift */; };
 		1588A0CE27943CED00F2B0D2 /* Facet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1588A0C627943CED00F2B0D2 /* Facet.swift */; };
 		1588A0CF27943CED00F2B0D2 /* FacetGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1588A0C727943CED00F2B0D2 /* FacetGroup.swift */; };
@@ -21,9 +23,6 @@
 		1588A0D327943CED00F2B0D2 /* Parameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1588A0CB27943CED00F2B0D2 /* Parameters.swift */; };
 		1588A0D427943CED00F2B0D2 /* Record.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1588A0CC27943CED00F2B0D2 /* Record.swift */; };
 		1588A0D6279453B300F2B0D2 /* ArbreDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1588A0D5279453B300F2B0D2 /* ArbreDB.swift */; };
-		15892459279274AE000E4703 /* ArbreListViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15892458279274AE000E4703 /* ArbreListViewModelTest.swift */; };
-		1589245B279274C6000E4703 /* ArbreDetailsViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1589245A279274C6000E4703 /* ArbreDetailsViewModelTest.swift */; };
-		1589245D27927BDD000E4703 /* DataRepositoryTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1589245C27927BDD000E4703 /* DataRepositoryTest.swift */; };
 		1598FEF7279478C100A83182 /* Persistable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1598FEF6279478C100A83182 /* Persistable.swift */; };
 		1598FEF92794BA7D00A83182 /* ArbreListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1598FEF82794BA7D00A83182 /* ArbreListViewModel.swift */; };
 		1598FEFE2794C92000A83182 /* ArbreDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1598FEFD2794C92000A83182 /* ArbreDetailView.swift */; };
@@ -53,14 +52,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		150C95D5278E23FA000CF7C3 /* Arbres One Point.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Arbres One Point.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		150C95D5278E23FA000CF7C3 /* ArbresOnePoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArbresOnePoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		150C95D8278E23FA000CF7C3 /* ArbresOnePointApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArbresOnePointApp.swift; sourceTree = "<group>"; };
 		150C95DA278E23FA000CF7C3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		150C95DC278E23FB000CF7C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		150C95DF278E23FB000CF7C3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		150C95E5278E23FB000CF7C3 /* Arbres One PointTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Arbres One PointTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		150C95EF278E23FB000CF7C3 /* Arbres One PointUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Arbres One PointUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		150C9607278E278D000CF7C3 /* ArbreTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArbreTest.swift; sourceTree = "<group>"; };
+		150C95E5278E23FB000CF7C3 /* ArbresOnePointTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArbresOnePointTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		150C95EF278E23FB000CF7C3 /* ArbresOnePointUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArbresOnePointUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		156E4D44279610E500FDC033 /* ArbreOnPointUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArbreOnPointUITests.swift; sourceTree = "<group>"; };
 		1588A0C527943CEC00F2B0D2 /* Fields.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fields.swift; sourceTree = "<group>"; };
 		1588A0C627943CED00F2B0D2 /* Facet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Facet.swift; sourceTree = "<group>"; };
 		1588A0C727943CED00F2B0D2 /* FacetGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacetGroup.swift; sourceTree = "<group>"; };
@@ -71,7 +70,6 @@
 		1588A0CC27943CED00F2B0D2 /* Record.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Record.swift; sourceTree = "<group>"; };
 		1588A0D5279453B300F2B0D2 /* ArbreDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArbreDB.swift; sourceTree = "<group>"; };
 		15892458279274AE000E4703 /* ArbreListViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArbreListViewModelTest.swift; sourceTree = "<group>"; };
-		1589245A279274C6000E4703 /* ArbreDetailsViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArbreDetailsViewModelTest.swift; sourceTree = "<group>"; };
 		1589245C27927BDD000E4703 /* DataRepositoryTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataRepositoryTest.swift; sourceTree = "<group>"; };
 		1598FEF6279478C100A83182 /* Persistable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistable.swift; sourceTree = "<group>"; };
 		1598FEF82794BA7D00A83182 /* ArbreListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArbreListViewModel.swift; sourceTree = "<group>"; };
@@ -117,9 +115,9 @@
 			children = (
 				1598FEFB2794C22E00A83182 /* Release.xcconfig */,
 				1598FEFA2794C21E00A83182 /* Dev.xcconfig */,
-				150C95D7278E23FA000CF7C3 /* Arbres One Point */,
-				150C95E8278E23FB000CF7C3 /* Arbres One PointTests */,
-				150C95F2278E23FB000CF7C3 /* Arbres One PointUITests */,
+				150C95D7278E23FA000CF7C3 /* ArbresOnePoint */,
+				150C95E8278E23FB000CF7C3 /* ArbresOnePointTests */,
+				150C95F2278E23FB000CF7C3 /* ArbresOnePointUITests */,
 				150C95D6278E23FA000CF7C3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -127,14 +125,14 @@
 		150C95D6278E23FA000CF7C3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				150C95D5278E23FA000CF7C3 /* Arbres One Point.app */,
-				150C95E5278E23FB000CF7C3 /* Arbres One PointTests.xctest */,
-				150C95EF278E23FB000CF7C3 /* Arbres One PointUITests.xctest */,
+				150C95D5278E23FA000CF7C3 /* ArbresOnePoint.app */,
+				150C95E5278E23FB000CF7C3 /* ArbresOnePointTests.xctest */,
+				150C95EF278E23FB000CF7C3 /* ArbresOnePointUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		150C95D7278E23FA000CF7C3 /* Arbres One Point */ = {
+		150C95D7278E23FA000CF7C3 /* ArbresOnePoint */ = {
 			isa = PBXGroup;
 			children = (
 				1598FEFC2794C3A100A83182 /* Arbres-One-Point-Info.plist */,
@@ -149,7 +147,7 @@
 				150C95DC278E23FB000CF7C3 /* Assets.xcassets */,
 				150C95DE278E23FB000CF7C3 /* Preview Content */,
 			);
-			path = "Arbres One Point";
+			path = ArbresOnePoint;
 			sourceTree = "<group>";
 		};
 		150C95DE278E23FB000CF7C3 /* Preview Content */ = {
@@ -160,22 +158,21 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		150C95E8278E23FB000CF7C3 /* Arbres One PointTests */ = {
+		150C95E8278E23FB000CF7C3 /* ArbresOnePointTests */ = {
 			isa = PBXGroup;
 			children = (
-				150C9607278E278D000CF7C3 /* ArbreTest.swift */,
 				15892458279274AE000E4703 /* ArbreListViewModelTest.swift */,
-				1589245A279274C6000E4703 /* ArbreDetailsViewModelTest.swift */,
 				1589245C27927BDD000E4703 /* DataRepositoryTest.swift */,
 			);
-			path = "Arbres One PointTests";
+			path = ArbresOnePointTests;
 			sourceTree = "<group>";
 		};
-		150C95F2278E23FB000CF7C3 /* Arbres One PointUITests */ = {
+		150C95F2278E23FB000CF7C3 /* ArbresOnePointUITests */ = {
 			isa = PBXGroup;
 			children = (
+				156E4D44279610E500FDC033 /* ArbreOnPointUITests.swift */,
 			);
-			path = "Arbres One PointUITests";
+			path = ArbresOnePointUITests;
 			sourceTree = "<group>";
 		};
 		150C9602278E25B4000CF7C3 /* Repository */ = {
@@ -246,9 +243,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		150C95D4278E23FA000CF7C3 /* Arbres One Point */ = {
+		150C95D4278E23FA000CF7C3 /* ArbresOnePoint */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 150C95F9278E23FB000CF7C3 /* Build configuration list for PBXNativeTarget "Arbres One Point" */;
+			buildConfigurationList = 150C95F9278E23FB000CF7C3 /* Build configuration list for PBXNativeTarget "ArbresOnePoint" */;
 			buildPhases = (
 				1589244627926BF5000E4703 /* ShellScript */,
 				150C95D1278E23FA000CF7C3 /* Sources */,
@@ -259,19 +256,19 @@
 			);
 			dependencies = (
 			);
-			name = "Arbres One Point";
+			name = ArbresOnePoint;
 			packageProductDependencies = (
 				15EA8BDD2793302D00F98DF3 /* Alamofire */,
 				15EA8BE527933F2700F98DF3 /* Realm */,
 				15EA8BE727933F2700F98DF3 /* RealmSwift */,
 			);
 			productName = "Arbres One Point";
-			productReference = 150C95D5278E23FA000CF7C3 /* Arbres One Point.app */;
+			productReference = 150C95D5278E23FA000CF7C3 /* ArbresOnePoint.app */;
 			productType = "com.apple.product-type.application";
 		};
-		150C95E4278E23FB000CF7C3 /* Arbres One PointTests */ = {
+		150C95E4278E23FB000CF7C3 /* ArbresOnePointTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 150C95FC278E23FB000CF7C3 /* Build configuration list for PBXNativeTarget "Arbres One PointTests" */;
+			buildConfigurationList = 150C95FC278E23FB000CF7C3 /* Build configuration list for PBXNativeTarget "ArbresOnePointTests" */;
 			buildPhases = (
 				150C95E1278E23FB000CF7C3 /* Sources */,
 				150C95E2278E23FB000CF7C3 /* Frameworks */,
@@ -282,14 +279,14 @@
 			dependencies = (
 				150C95E7278E23FB000CF7C3 /* PBXTargetDependency */,
 			);
-			name = "Arbres One PointTests";
+			name = ArbresOnePointTests;
 			productName = "Arbres One PointTests";
-			productReference = 150C95E5278E23FB000CF7C3 /* Arbres One PointTests.xctest */;
+			productReference = 150C95E5278E23FB000CF7C3 /* ArbresOnePointTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		150C95EE278E23FB000CF7C3 /* Arbres One PointUITests */ = {
+		150C95EE278E23FB000CF7C3 /* ArbresOnePointUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 150C95FF278E23FB000CF7C3 /* Build configuration list for PBXNativeTarget "Arbres One PointUITests" */;
+			buildConfigurationList = 150C95FF278E23FB000CF7C3 /* Build configuration list for PBXNativeTarget "ArbresOnePointUITests" */;
 			buildPhases = (
 				150C95EB278E23FB000CF7C3 /* Sources */,
 				150C95EC278E23FB000CF7C3 /* Frameworks */,
@@ -300,9 +297,9 @@
 			dependencies = (
 				150C95F1278E23FB000CF7C3 /* PBXTargetDependency */,
 			);
-			name = "Arbres One PointUITests";
+			name = ArbresOnePointUITests;
 			productName = "Arbres One PointUITests";
-			productReference = 150C95EF278E23FB000CF7C3 /* Arbres One PointUITests.xctest */;
+			productReference = 150C95EF278E23FB000CF7C3 /* ArbresOnePointUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -325,11 +322,12 @@
 					};
 					150C95EE278E23FB000CF7C3 = {
 						CreatedOnToolsVersion = 13.2.1;
+						LastSwiftMigration = 1320;
 						TestTargetID = 150C95D4278E23FA000CF7C3;
 					};
 				};
 			};
-			buildConfigurationList = 150C95D0278E23F9000CF7C3 /* Build configuration list for PBXProject "Arbres One Point" */;
+			buildConfigurationList = 150C95D0278E23F9000CF7C3 /* Build configuration list for PBXProject "ArbresOnePoint" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -346,9 +344,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				150C95D4278E23FA000CF7C3 /* Arbres One Point */,
-				150C95E4278E23FB000CF7C3 /* Arbres One PointTests */,
-				150C95EE278E23FB000CF7C3 /* Arbres One PointUITests */,
+				150C95D4278E23FA000CF7C3 /* ArbresOnePoint */,
+				150C95E4278E23FB000CF7C3 /* ArbresOnePointTests */,
+				150C95EE278E23FB000CF7C3 /* ArbresOnePointUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -428,10 +426,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				150C9608278E278D000CF7C3 /* ArbreTest.swift in Sources */,
-				1589245D27927BDD000E4703 /* DataRepositoryTest.swift in Sources */,
-				1589245B279274C6000E4703 /* ArbreDetailsViewModelTest.swift in Sources */,
-				15892459279274AE000E4703 /* ArbreListViewModelTest.swift in Sources */,
+				156E4D472796208300FDC033 /* ArbreListViewModelTest.swift in Sources */,
+				156E4D482796208700FDC033 /* DataRepositoryTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,6 +435,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				156E4D462796205E00FDC033 /* ArbreOnPointUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,12 +444,12 @@
 /* Begin PBXTargetDependency section */
 		150C95E7278E23FB000CF7C3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 150C95D4278E23FA000CF7C3 /* Arbres One Point */;
+			target = 150C95D4278E23FA000CF7C3 /* ArbresOnePoint */;
 			targetProxy = 150C95E6278E23FB000CF7C3 /* PBXContainerItemProxy */;
 		};
 		150C95F1278E23FB000CF7C3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 150C95D4278E23FA000CF7C3 /* Arbres One Point */;
+			target = 150C95D4278E23FA000CF7C3 /* ArbresOnePoint */;
 			targetProxy = 150C95F0278E23FB000CF7C3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -584,7 +581,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Arbres One Point/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"ArbresOnePoint/Preview Content\"";
 				DEVELOPMENT_TEAM = 6NTQ2Y43QX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -592,6 +589,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -615,7 +613,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Arbres One Point/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"ArbresOnePoint/Preview Content\"";
 				DEVELOPMENT_TEAM = 6NTQ2Y43QX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -623,6 +621,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -662,7 +661,7 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Arbres One Point.app/Arbres One Point";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArbresOnePoint.app/ArbresOnePoint";
 			};
 			name = Debug;
 		};
@@ -689,7 +688,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Arbres One Point.app/Arbres One Point";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArbresOnePoint.app/ArbresOnePoint";
 			};
 			name = Release;
 		};
@@ -698,17 +697,25 @@
 			baseConfigurationReference = 1598FEFA2794C21E00A83182 /* Dev.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6NTQ2Y43QX;
 				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tooflexdev.Arbres-One-PointUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Arbres One Point";
+				TEST_TARGET_NAME = ArbresOnePoint;
 			};
 			name = Debug;
 		};
@@ -717,24 +724,31 @@
 			baseConfigurationReference = 1598FEFB2794C22E00A83182 /* Release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6NTQ2Y43QX;
 				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tooflexdev.Arbres-One-PointUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Arbres One Point";
+				TEST_TARGET_NAME = ArbresOnePoint;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		150C95D0278E23F9000CF7C3 /* Build configuration list for PBXProject "Arbres One Point" */ = {
+		150C95D0278E23F9000CF7C3 /* Build configuration list for PBXProject "ArbresOnePoint" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				150C95F7278E23FB000CF7C3 /* Debug */,
@@ -743,7 +757,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		150C95F9278E23FB000CF7C3 /* Build configuration list for PBXNativeTarget "Arbres One Point" */ = {
+		150C95F9278E23FB000CF7C3 /* Build configuration list for PBXNativeTarget "ArbresOnePoint" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				150C95FA278E23FB000CF7C3 /* Debug */,
@@ -752,7 +766,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		150C95FC278E23FB000CF7C3 /* Build configuration list for PBXNativeTarget "Arbres One PointTests" */ = {
+		150C95FC278E23FB000CF7C3 /* Build configuration list for PBXNativeTarget "ArbresOnePointTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				150C95FD278E23FB000CF7C3 /* Debug */,
@@ -761,7 +775,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		150C95FF278E23FB000CF7C3 /* Build configuration list for PBXNativeTarget "Arbres One PointUITests" */ = {
+		150C95FF278E23FB000CF7C3 /* Build configuration list for PBXNativeTarget "ArbresOnePointUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				150C9600278E23FB000CF7C3 /* Debug */,
