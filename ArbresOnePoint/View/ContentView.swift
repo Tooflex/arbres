@@ -13,14 +13,18 @@ struct ContentView: View {
 
     var body: some View {
         NavigationView {
-            List(arbreListViewModel.arbresResults, id: \.id) { arbre in
-                NavigationLink(destination: ArbreDetailView(arbre: arbre)) {
-                    Text(arbre.name)
+            if arbreListViewModel.isLoading {
+                ProgressView().progressViewStyle(CircularProgressViewStyle())
+            } else {
+                List(arbreListViewModel.arbresResults, id: \.id) { arbre in
+                    NavigationLink(destination: ArbreDetailView(arbre: arbre)) {
+                        Text(arbre.name)
+                    }
                 }
-            }
-            .navigationTitle("Arbres")
-            .onAppear {
-                arbreListViewModel.onAppear()
+                .navigationTitle("Arbres")
+                .onAppear {
+                    arbreListViewModel.onAppear()
+                }
             }
         }
     }

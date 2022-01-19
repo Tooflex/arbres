@@ -12,7 +12,6 @@ final class ArbreListViewModel: ObservableObject {
     private let dataRepository = DataRepository.sharedInstance
 
     @Published var arbresResults: [ArbreDB] = []
-    @Published var noResults = false // No filter results
     @Published var isLoading = false
 
     init() {
@@ -29,14 +28,13 @@ final class ArbreListViewModel: ObservableObject {
     }
 
     func fetchArbresOnline() {
-        if noResults {
-            isLoading = true
-        }
+        isLoading = true
+
         dataRepository.fetchArbres { response in
 
             switch response.result {
             case .success(_):
-                    self.getArbres()
+                self.getArbres()
             case .failure(let error):
                 print(error.localizedDescription)
             }

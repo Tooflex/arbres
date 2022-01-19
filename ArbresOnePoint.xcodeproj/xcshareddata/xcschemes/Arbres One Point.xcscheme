@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "150C95D4278E23FA000CF7C3"
-               BuildableName = "Arbres One Point.app"
+               BuildableName = "ArbresOnePoint.app"
                BlueprintName = "ArbresOnePoint"
                ReferencedContainer = "container:ArbresOnePoint.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "150C95E4278E23FB000CF7C3"
-               BuildableName = "Arbres One PointTests.xctest"
+               BuildableName = "ArbresOnePointTests.xctest"
                BlueprintName = "ArbresOnePointTests"
                ReferencedContainer = "container:ArbresOnePoint.xcodeproj">
             </BuildableReference>
@@ -47,7 +47,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "150C95EE278E23FB000CF7C3"
-               BuildableName = "Arbres One PointUITests.xctest"
+               BuildableName = "ArbresOnePointUITests.xctest"
                BlueprintName = "ArbresOnePointUITests"
                ReferencedContainer = "container:ArbresOnePoint.xcodeproj">
             </BuildableReference>
@@ -69,7 +69,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "150C95D4278E23FA000CF7C3"
-            BuildableName = "Arbres One Point.app"
+            BuildableName = "ArbresOnePoint.app"
             BlueprintName = "ArbresOnePoint"
             ReferencedContainer = "container:ArbresOnePoint.xcodeproj">
          </BuildableReference>
@@ -86,7 +86,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "150C95D4278E23FA000CF7C3"
-            BuildableName = "Arbres One Point.app"
+            BuildableName = "ArbresOnePoint.app"
             BlueprintName = "ArbresOnePoint"
             ReferencedContainer = "container:ArbresOnePoint.xcodeproj">
          </BuildableReference>
