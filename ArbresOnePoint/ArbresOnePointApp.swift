@@ -9,6 +9,8 @@ import SwiftUI
 
 @main
 struct ArbresOnePointApp: App {
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+    
     var body: some Scene {
         WindowGroup {
             ContentView().environmentObject(ArbreListViewModel())
