@@ -10,7 +10,7 @@ import RealmSwift
 import Alamofire
 
 protocol DataRepositoryProtocol {
-    func fetchArbres(completion: @escaping (DataResponse<ArbresResponse, AFError>) -> Void)
+    func fetchArbres(start: Int, completion: @escaping (DataResponse<ArbresResponse, AFError>) -> Void)
 }
 
 final class DataRepository: ObservableObject, DataRepositoryProtocol {
@@ -27,8 +27,8 @@ final class DataRepository: ObservableObject, DataRepositoryProtocol {
         self.apiService = apiService
     }
 
-    func fetchArbres(completion: @escaping (DataResponse<ArbresResponse, AFError>) -> Void) {
-        apiService.fetchArbres { result in
+    func fetchArbres(start: Int = 1, completion: @escaping (DataResponse<ArbresResponse, AFError>) -> Void) {
+        apiService.fetchArbres(start: start) { result in
             if let response = result.value {
                 if let arbres = response.records {
                     self.addAll(arbresToAdd: arbres)
@@ -44,7 +44,7 @@ final class DataRepository: ObservableObject, DataRepositoryProtocol {
 
         let container = try! Container()
         try! container.write { transaction in
-            transaction.add(arbresToAdd)
+            transaction.add(arbresToAdd, update: Realm.UpdatePolicy.all)
         }
     }
 
