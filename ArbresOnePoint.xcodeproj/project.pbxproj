@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		149B6744283246A1000F117C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149B6743283246A1000F117C /* AppDelegate.swift */; };
 		150C95D9278E23FA000CF7C3 /* ArbresOnePointApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150C95D8278E23FA000CF7C3 /* ArbresOnePointApp.swift */; };
 		150C95DB278E23FA000CF7C3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150C95DA278E23FA000CF7C3 /* ContentView.swift */; };
 		150C95DD278E23FB000CF7C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 150C95DC278E23FB000CF7C3 /* Assets.xcassets */; };
@@ -52,6 +53,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		149B6743283246A1000F117C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		150C95D5278E23FA000CF7C3 /* ArbresOnePoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArbresOnePoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		150C95D8278E23FA000CF7C3 /* ArbresOnePointApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArbresOnePointApp.swift; sourceTree = "<group>"; };
 		150C95DA278E23FA000CF7C3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -146,6 +148,7 @@
 				150C95D8278E23FA000CF7C3 /* ArbresOnePointApp.swift */,
 				150C95DC278E23FB000CF7C3 /* Assets.xcassets */,
 				150C95DE278E23FB000CF7C3 /* Preview Content */,
+				149B6743283246A1000F117C /* AppDelegate.swift */,
 			);
 			path = ArbresOnePoint;
 			sourceTree = "<group>";
@@ -414,6 +417,7 @@
 				15EA8BE12793328200F98DF3 /* Configuration.swift in Sources */,
 				1598FEF7279478C100A83182 /* Persistable.swift in Sources */,
 				1588A0CF27943CED00F2B0D2 /* FacetGroup.swift in Sources */,
+				149B6744283246A1000F117C /* AppDelegate.swift in Sources */,
 				1598FEFE2794C92000A83182 /* ArbreDetailView.swift in Sources */,
 				1588A0CD27943CED00F2B0D2 /* Fields.swift in Sources */,
 				15EA8BDB27932EEC00F98DF3 /* ArbreApiService.swift in Sources */,

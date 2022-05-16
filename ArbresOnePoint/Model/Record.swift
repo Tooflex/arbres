@@ -13,6 +13,7 @@
 
 import Foundation
 import Alamofire
+import RealmSwift
 
 // MARK: - Record
 struct Record: Codable {
@@ -81,6 +82,8 @@ extension Record: Persistable {
         arbre.address = fields?.adresse ?? ""
         arbre.circumference = fields?.circonferenceencm ?? 0
         arbre.specie = fields?.espece ?? ""
+        arbre.geoPoint2d.append(fields?.geoPoint2D?[0] ?? 0.0)
+        arbre.geoPoint2d.append(fields?.geoPoint2D?[1] ?? 0.0)
 
         return arbre
     }

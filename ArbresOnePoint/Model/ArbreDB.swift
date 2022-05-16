@@ -21,6 +21,8 @@ class ArbreDB: Object, Identifiable {
     @objc dynamic var circumference = 0
     /// Location of the tree
     @objc dynamic var address = ""
+    /// Coordinates of the tree
+    var geoPoint2d: List<Double> = List()
 
     override static func primaryKey() -> String {
         "id"
