@@ -13,7 +13,7 @@ struct ArbresOnePointApp: App {
     
     var body: some Scene {
         WindowGroup {
-            ContentView().environmentObject(ArbreListViewModel())
+            ArbreList().environmentObject(ArbreListViewModel())
         }
     }
 }

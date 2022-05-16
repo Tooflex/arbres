@@ -7,19 +7,28 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct ArbreList: View {
 
     @EnvironmentObject var arbreListViewModel: ArbreListViewModel
+    
+    @State private var searchText = ""
+    @State private var currentStartingPoint: Int = 0
 
     var body: some View {
         NavigationView {
             if arbreListViewModel.isLoading {
                 ProgressView().progressViewStyle(CircularProgressViewStyle())
             } else {
-                List(arbreListViewModel.arbresResults, id: \.id) { arbre in
+                List(arbreListViewModel.filteredArbresResults, id: \.id) { arbre in
                     NavigationLink(destination: ArbreDetailView(arbre: arbre)) {
                         Text(arbre.name)
                     }
+                }
+                .id(UUID())
+                .searchable(text: $searchText, prompt: "Rechercher un arbre")
+                .disableAutocorrection(true)
+                .onChange(of: searchText) { newValue in
+                    arbreListViewModel.filteredArbres(searchText: searchText)
                 }
                 .navigationTitle("Arbres")
                 .onAppear {
@@ -32,6 +41,6 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ArbreList()
     }
 }

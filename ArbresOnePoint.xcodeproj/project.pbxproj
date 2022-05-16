@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		149B6744283246A1000F117C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149B6743283246A1000F117C /* AppDelegate.swift */; };
 		150C95D9278E23FA000CF7C3 /* ArbresOnePointApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150C95D8278E23FA000CF7C3 /* ArbresOnePointApp.swift */; };
-		150C95DB278E23FA000CF7C3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150C95DA278E23FA000CF7C3 /* ContentView.swift */; };
+		150C95DB278E23FA000CF7C3 /* ArbreList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150C95DA278E23FA000CF7C3 /* ArbreList.swift */; };
 		150C95DD278E23FB000CF7C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 150C95DC278E23FB000CF7C3 /* Assets.xcassets */; };
 		150C95E0278E23FB000CF7C3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 150C95DF278E23FB000CF7C3 /* Preview Assets.xcassets */; };
 		156E4D462796205E00FDC033 /* ArbreOnPointUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156E4D44279610E500FDC033 /* ArbreOnPointUITests.swift */; };
@@ -56,7 +56,7 @@
 		149B6743283246A1000F117C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		150C95D5278E23FA000CF7C3 /* ArbresOnePoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArbresOnePoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		150C95D8278E23FA000CF7C3 /* ArbresOnePointApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArbresOnePointApp.swift; sourceTree = "<group>"; };
-		150C95DA278E23FA000CF7C3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		150C95DA278E23FA000CF7C3 /* ArbreList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArbreList.swift; sourceTree = "<group>"; };
 		150C95DC278E23FB000CF7C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		150C95DF278E23FB000CF7C3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		150C95E5278E23FB000CF7C3 /* ArbresOnePointTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArbresOnePointTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -213,7 +213,7 @@
 		150C9605278E25E1000CF7C3 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				150C95DA278E23FA000CF7C3 /* ContentView.swift */,
+				150C95DA278E23FA000CF7C3 /* ArbreList.swift */,
 				1598FEFD2794C92000A83182 /* ArbreDetailView.swift */,
 			);
 			path = View;
@@ -408,7 +408,7 @@
 				1588A0D027943CED00F2B0D2 /* JSONSchemaSupport.swift in Sources */,
 				1588A0D227943CED00F2B0D2 /* ArbresResponse.swift in Sources */,
 				1588A0D327943CED00F2B0D2 /* Parameters.swift in Sources */,
-				150C95DB278E23FA000CF7C3 /* ContentView.swift in Sources */,
+				150C95DB278E23FA000CF7C3 /* ArbreList.swift in Sources */,
 				1598FEF92794BA7D00A83182 /* ArbreListViewModel.swift in Sources */,
 				1588A0D427943CED00F2B0D2 /* Record.swift in Sources */,
 				1588A0CE27943CED00F2B0D2 /* Facet.swift in Sources */,

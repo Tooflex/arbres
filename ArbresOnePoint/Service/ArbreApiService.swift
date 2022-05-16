@@ -11,7 +11,7 @@ import Combine
 
 protocol ArbreApiServiceProtocol {
 
-    func fetchArbres(completion: @escaping (DataResponse<ArbresResponse, AFError>) -> Void)
+    func fetchArbres(start: Int, completion: @escaping (DataResponse<ArbresResponse, AFError>) -> Void)
 }
 
 final class ArbreApiService: ArbreApiServiceProtocol {
@@ -27,10 +27,10 @@ final class ArbreApiService: ArbreApiServiceProtocol {
 
     var tokens: Set<AnyCancellable> = []
 
-    func fetchArbres(completion: @escaping (DataResponse<ArbresResponse, AFError>) -> Void) {
+    func fetchArbres(start: Int = 1, completion: @escaping (DataResponse<ArbresResponse, AFError>) -> Void) {
 
         guard let url = URL(
-            string: "api/records/1.0/search/?dataset=les-arbres&q=&rows=20",
+            string: "api/records/1.0/search/?dataset=les-arbres&q=&rows=20&start=\(start)",
             relativeTo: API.baseURL
         )
         else {

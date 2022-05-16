@@ -53,7 +53,7 @@ class ArbreListViewModelTest: XCTestCase {
                 geometry: Geometry(type: "arbre", coordinates: [1.0, 1.0]),
                 recordTimestamp: "1"))
         }
-        XCTAssert(viewModel.arbresResults.count == 20)
+        XCTAssert(viewModel.filteredArbresResults.count == 20)
     }
 
 }

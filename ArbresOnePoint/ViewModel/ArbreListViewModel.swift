@@ -5,13 +5,14 @@
 //  Created by Otourou Da Costa on 16/01/2022.
 //
 
-import Foundation
+import SwiftUI
 
 final class ArbreListViewModel: ObservableObject {
 
     private let dataRepository = DataRepository.sharedInstance
 
-    @Published var arbresResults: [ArbreDB] = []
+    @Published private var arbresResults: [ArbreDB] = []
+    @Published var filteredArbresResults: [ArbreDB] = []
     @Published var isLoading = false
 
     init() {
@@ -24,13 +25,14 @@ final class ArbreListViewModel: ObservableObject {
     }
 
     func getArbres() {
-        self.arbresResults = Array(dataRepository.fetchLocalData(type: ArbreDB.self))
+        self.arbresResults =  Array(dataRepository.fetchLocalData(type: ArbreDB.self))
+        self.filteredArbresResults = self.arbresResults
     }
 
-    func fetchArbresOnline() {
+    func fetchArbresOnline(start: Int = 0) {
         isLoading = true
 
-        dataRepository.fetchArbres { response in
+        dataRepository.fetchArbres(start: start) { response in
 
             switch response.result {
             case .success(_):
@@ -41,5 +43,13 @@ final class ArbreListViewModel: ObservableObject {
             self.isLoading = false
         }
     }
-
+    
+    func filteredArbres(
+        searchText: String) {
+            if searchText.isEmpty {
+                    filteredArbresResults = arbresResults
+                } else {
+                    filteredArbresResults = arbresResults.filter { $0.name.localizedCaseInsensitiveContains(searchText) }
+                }
+        }
 }
